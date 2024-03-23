@@ -1,0 +1,33 @@
+.gambarr {
+    margin-bottom: 40px;
+}
+
+
+.teks h3 {
+    margin-bottom: 30px;
+}
+
+.teks p {
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+    img.gambarr {
+        display: none;
+    }
+
+    div#tagline {
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    #destinasi {
+        text-align: center;
+    }
+
+    #objek {
+        text-align: center;
+    }
+
+}
